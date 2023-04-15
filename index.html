@@ -1,0 +1,1590 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>index</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+
+
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
+
+
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {
+  color: #333;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: initial;
+}
+
+/* 如果你的项目仅支持 IE9+ | Chrome | Firefox 等，推荐在 <html> 中添加 .borderbox 这个 class */
+html.borderbox *,
+html.borderbox *:before,
+html.borderbox *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,
+dl,
+dt,
+dd,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* HTML5 媒体文件跟 img 保持一致 */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,
+button,
+input,
+select,
+textarea {
+  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* 去掉各Table cell 的边距并让其边重合 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 去除默认边框 */
+fieldset,
+img {
+  border: 0;
+}
+
+/* 块/段落引用 */
+blockquote {
+  position: relative;
+  color: #999;
+  font-weight: 400;
+  border-left: 1px solid #1abc9c;
+  padding-left: 1em;
+  margin: 1em 3em 1em 2em;
+}
+
+@media only screen and (max-width: 640px) {
+  blockquote {
+    margin: 1em 0;
+  }
+}
+
+/* Firefox 以外，元素没有下划线，需添加 */
+acronym,
+abbr {
+  border-bottom: 1px dotted;
+  font-variant: normal;
+  text-decoration: none;
+}
+
+/* 添加鼠标问号，进一步确保应用的语义是正确的（要知道，交互他们也有洁癖，如果你不去掉，那得多花点口舌） */
+abbr {
+  cursor: help;
+}
+
+/* 一致的 del 样式 */
+del {
+  text-decoration: line-through;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption,
+th {
+  text-align: left;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+/* 统一上标和下标 */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+:root sub,
+:root sup {
+  vertical-align: baseline;
+  /* for ie9 and other modern browsers */
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* 让链接在 hover 状态下显示下划线 */
+a {
+  color: #1abc9c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.typo a {
+  border-bottom: 1px solid #1abc9c;
+}
+
+.typo a:hover {
+  border-bottom-color: #555;
+  color: #555;
+  text-decoration: none;
+}
+
+/* 默认不显示下划线，保持页面简洁 */
+ins,
+a {
+  text-decoration: none;
+}
+
+/* 专名号：虽然 u 已经重回 html5 Draft，但在所有浏览器中都是可以使用的，
+ * 要做到更好，向后兼容的话，添加 class="typo-u" 来显示专名号
+ * 关于 <u> 标签：http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-u-element
+ * 被放弃的是 4，之前一直搞错 http://www.w3.org/TR/html401/appendix/changes.html#idx-deprecated
+ * 一篇关于 <u> 标签的很好文章：http://html5doctor.com/u-element/
+ */
+u,
+.typo-u {
+  text-decoration: underline;
+}
+
+/* 标记，类似于手写的荧光笔的作用 */
+mark {
+  background: #fffdd1;
+  border-bottom: 1px solid #ffedce;
+  padding: 2px;
+  margin: 0 5px;
+}
+
+/* 代码片断 */
+pre,
+code,
+pre tt {
+  font-family: Courier, 'Courier New', monospace;
+}
+
+pre {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 1em 1.5em;
+  display: block;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 一致化 horizontal rule */
+hr {
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  margin-bottom: 0.8em;
+  height: 10px;
+}
+
+/* 底部印刷体、版本等标记 */
+small,
+.typo-small,
+/* 图片说明 */
+figcaption {
+  font-size: 0.9em;
+  color: #888;
+}
+
+strong,
+b {
+  font-weight: bold;
+  color: #000;
+}
+
+/* 可拖动文件添加拖动手势 */
+[draggable] {
+  cursor: move;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  font-weight: 100;
+  color: #000;
+  line-height: 1.35;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+}
+
+/* animation */
+#write td,
+#megamenu-content td,
+.file-list-item,
+.megamenu-menu li,
+.btn,
+.long-btn {
+	position: relative;
+	overflow: hidden;
+}
+
+#write td:after,
+#megamenu-content td:after,
+.file-list-item:after,
+.megamenu-menu li:after,
+.btn:after,
+.long-btn:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	transform: scale(10, 10);
+	opacity: 0;
+	transition: transform .3s, opacity .5s;
+}
+
+#write td:active:after,
+#megamenu-content td:active:after,
+.file-list-item:active:after,
+.megamenu-menu li:active:after,
+.btn:active:after,
+.long-btn:active:after {
+	transform: scale(0, 0);
+	opacity: .3;
+	transition: 0s;
+}
+/* 目录自动编号 */
+.md-toc::before {
+	content: "目录";
+	font-family: var(--base-font);
+	font-size: 2rem;
+	font-weight: 200;
+	text-align: center;
+	display: block;
+	position: absolute;
+	left: -10rem;
+	padding: 8rem;
+	padding-top: 2rem;
+	background: linear-gradient(-40deg, transparent 49.5%, deeppink 49.5%, deeppink 50.5%, transparent 50.5%) 40px;
+}
+
+.md-toc {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	display: table;
+	margin: 4rem auto;
+	margin-left: 4rem !important;
+	max-width: 75%;
+}
+
+.md-toc-content {
+	line-height: 2rem;
+	left: 4rem;
+	top: 1rem;
+
+}
+
+.md-toc-item {
+	font-family: var(--base-font);
+}
+
+.md-toc-h1 {
+	margin-top: 4rem;
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+
+.md-toc-h1 .md-toc-inner {
+	margin-left: 2em;
+}
+
+.md-toc-h2 {
+	margin-left: 2rem;
+	font-size: 1.1rem;
+}
+
+.md-toc-h2,
+.md-toc-h3 {
+	margin-top: 1rem;
+	font-weight: 200;
+}
+
+.md-toc-h2+.md-toc-h3 {
+	margin-left: 8rem;
+}
+
+.md-toc-h3 {
+	display: inline-block;
+	font-size: 1rem;
+}
+
+.md-toc-h3 .md-toc-inner {
+	margin-left: .5rem;
+}
+
+.md-toc-h3::first-of-type {
+	margin-left: 4rem;
+}
+
+.md-toc-h3:after {
+	content: " / ";
+}
+
+.md-toc-inner {
+	color: var(--text-color);
+	border: none !important;
+}
+
+.md-toc-h1 {
+	counter-increment: counter_md-toc-h1;
+	counter-reset: counter_md-toc-h2;
+}
+
+.md-toc-h1:before {
+	content: "第"counter(counter_md-toc-h1, cjk-ideographic)"章";
+}
+
+.md-toc-h2 {
+	counter-increment: counter_md-toc-h2;
+	counter-reset: counter_md-toc-h3;
+}
+
+.md-toc-h2::before {
+	content: "第"counter(counter_md-toc-h2, cjk-ideographic)"节";
+}
+
+.md-toc-h3 {
+	counter-increment: counter_md-toc-h3;
+	counter-reset: counter_md-toc-h4;
+}
+
+.md-toc-h3::before {
+	content: counter(counter_md-toc-h3);
+}
+
+.md-toc-h1::before,
+.md-toc-h2::before,
+.md-toc-h3::before {
+	display: inline-block;
+	color: var(--text-color);
+}
+
+.md-toc-h4,
+.md-toc-h5,
+.md-toc-h6 {
+	display: none;
+}
+
+/* 大纲目录自动编号 */
+
+.sidebar-content {
+
+	counter-reset: h1;
+}
+
+.outline-h1 {
+	counter-increment: h1;
+	counter-reset: h2;
+}
+
+.outline-h2 {
+	counter-increment: h2;
+	counter-reset: h3;
+}
+
+.outline-h3 {
+	counter-increment: h3;
+	counter-reset: h4;
+}
+
+.outline-h4 {
+	counter-increment: h4;
+	counter-reset: h5;
+}
+
+.outline-h5 {
+	counter-increment: h5;
+	counter-reset: h6;
+}
+
+.outline-h1>.outline-item>.outline-label:before {
+	content: "章"counter(h1) " ";
+}
+
+.outline-h2>.outline-item>.outline-label:before {
+	content: "节"counter(h2) " ";
+}
+
+.outline-h3>.outline-item>.outline-label:before {
+	content: counter(h3) " ";
+}
+
+.outline-h4>.outline-item>.outline-label:before {
+	content: counter(h3) "."counter(h4) " ";
+}
+
+.outline-h5>.outline-item>.outline-label:before {
+	content: counter(h3) "."counter(h4) "."counter(h5) " ";
+}
+
+.outline-h6>.outline-item>.outline-label:before {
+	counter-increment: h6;
+	content: counter(h3) "."counter(h4) "."counter(h5) "."counter(h6) " ";
+}
+/* ui */
+
+#write .md-grid-board-wrap input {
+    text-align: center !important;
+}
+
+.file-list-item:hover,
+.file-node-content:hover,
+.file-node-background:hover {
+    height: auto;
+}
+
+.info-panel-tab:hover,
+.active-tab-outline,
+.active-tab-files,
+.outline-item:hover,
+.context-menu.dropdown-menu>.active>a,
+.context-menu.dropdown-menu>li>a:hover,
+.menu-style-btn.active,
+.file-list-item:hover,
+.file-node-content:hover,
+.file-node-background:hover,
+.megamenu-menu-list:not(.saved) li a:hover,
+.megamenu-menu-list li a.active {
+    color: var(--primary-color);
+}
+
+.file-list-item:hover,
+.file-node-content:hover,
+.file-node-background:hover,
+.context-menu.dropdown-menu>li>a:focus,
+.megamenu-menu-list:not(.saved) li a:hover,
+.megamenu-menu-list li a.active,
+a.menu-style-btn:hover {
+    background-color: var(--active-bg);
+}
+
+.megamenu-content {
+    background: var(--bg-contents);
+}
+
+.megamenu-menu-list:not(.saved) li a:hover,
+.megamenu-menu-list li a.active {
+    display: block !important;
+}
+
+#outline-content,
+#file-library {
+    color: var(--color-text);
+}
+
+#file-library-search-input {
+    padding-left: 0.4em;
+}
+
+/* 一体化模式下菜单页 */
+
+/* 菜单侧标栏 */
+.megamenu-menu {
+    box-shadow: 2px 2px 5px 0 #33333380, 2px 0px 10px 0 #33333380;
+}
+
+/* bugfix */
+.megamenu-opened .megamenu-menu {
+    left: -1px !important;
+}
+
+/* 侧边栏item激活 */
+
+/* bugfix */
+.megamenu-menu-list li {
+    line-height: 48px;
+}
+
+.megamenu-menu-list li a {
+    height: 48px;
+}
+
+/* 标题 */
+
+.megamenu-menu-panel h1,
+.megamenu-menu-panel h2 {
+    margin: 2rem auto 3rem;
+}
+
+/* 长形按钮 */
+.long-btn:hover {
+    color: var(--primary-color) !important;
+}
+
+.megamenu-menu-panel .btn {
+    border: var(--base-border);
+}
+
+/* 最近文档 */
+
+.megamenu-menu-panel table tr {
+    background: #ffffff00 !important;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: var(--active-bg) !important;
+}
+
+.megamenu-menu-panel tr:hover,
+.megamenu-menu-panel th:hover,
+.megamenu-menu-panel td:hover {
+    color: var(--primary-color) !important;
+}
+
+/* 主题页 */
+/* 样式预览 */
+
+.theme-preview-div:hover {
+    border-color: #80aaff80;
+}
+
+.theme-preview-div {
+    border: 4px solid #99999950;
+}
+
+.theme-preview-div.active,
+.theme-preview-div.active:hover {
+    border-color: var(--primary-color);
+}
+
+/* 偏好设定 */
+
+.unibody-window {
+    font-family: var(--font-hei);
+}
+
+/* 偏好设定侧边栏 */
+.nav-group-item.active {
+    background: var(--item-hover-bg-color) !important;
+    color: var(--primary-color);
+}
+
+/* 关于页 */
+/* fix */
+table#typora-help-md-table tr {
+    background: transparent;
+}
+
+.about-content-meta {
+    font-family: var(--font-title);
+}
+
+footer.stopselect.ty-footer {
+    right: 0;
+}
+
+.md-image>.md-meta {
+    color: var(--meta-content-color);
+}
+
+.megamenu-menu-panel h1,
+.megamenu-menu-panel h2 {
+    color: var(--text-color);
+}
+
+.megamenu-opened #top-titlebar {
+    background-image: none;
+    background: var(--bg-contents);
+    height: 30px;
+}
+
+.ty-preferences * {
+    color: var(--text-color);
+}@import "";
+@import "";
+@import "";
+@import "";
+@import "";
+
+:root {
+    /* color setting */
+    --theme-color: #ff8080;
+    --theme-color-weak: hsl(0, 100%, 95%);
+    --color-text: #333;
+    --text-color: var(--color-text);
+    --color-em: #111;
+    --color-strong: #000;
+    --color-weak: #595959;
+    --color-weakest: #808080;
+    --md-char-color: #ff4d4d;
+    --meta-content-color: var(--color-weakest);
+    --color-title: var(--color-em);
+    --color-title-h1: var(--color-em);
+    --color-title-h2: var(--color-em);
+    --color-title-h3: var(--color-em);
+    --color-title-h4: var(--color-em);
+    --color-title-h5: var(--color-em);
+    --color-title-h6: var(--color-em);
+
+    --color-quote: var(--color-weak);
+    --color-code: var(--color-text);
+    --color-link: var(--theme-color);
+    --color-italic: var(--color-em);
+    --color-strong: var(--color-strong);
+    --color-highlight: var(--color-strong);
+    --color-strike: var(--color-weakest);
+    --color-footnote: var(--color-weak);
+
+    --thead-color: var(--color-em);
+    --tbody-color: var(--color-text);
+    --tbody-color-opt: var(--color-text);
+    --color-thead-hover: var(--color-weak);
+    --color-tbody-hover: var(--color-weak);
+
+    --link-hover-color: #464343;
+    --link-hover-bg: none;
+
+    /* background setting */
+    --bg-contents: #f1f1f1;
+    --bg-write: #fff;
+    --bg-color: var(--bg-contents);
+    --bg-title: none;
+    --bg-title-h1: none;
+    --bg-title-h2: none;
+    --bg-title-h3: none;
+    --bg-title-h4: none;
+    --bg-title-h5: none;
+    --bg-title-h6: none;
+
+    --bg-quote: #f2f2f2;
+    --bg-code: #ffe5e5;
+    --bg-code-block: #f2f2f2;
+    --bg-link: none;
+    --bg-italic: none;
+    --bg-strong: none;
+    --bg-highlight: #ffb3b3;
+    --bg-strike: none;
+    --bg-footnote: none;
+
+    --bg-thead: var(--theme-color-weak);
+    --bg-tbody: var(--bg-write);
+    --bg-tbody-opt: #fcfcfc;
+    --bg-thead-hover: var(--bg-contents);
+    --bg-tbody-hover: var(--bg-contents);
+
+    /* font setting:font-weight;font-size;line-height;font-family */
+    --font-hei: "Poppins", -apple-system, "Helvetica Neue", Helvetica, "Noto Sans", "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    --font-song: "EB Garamond", Georgia, "Nimbus Roman No9 L", "Noto Serif CJK SC", "Songti SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
+    --font-kai: "EB Garamond", Bas kerville, Georgia, "Liberation Serif",  STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
+    --font-mono: "Cascadia Code", "Sarasa Term SC", Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono", Courier;
+
+    --font-weight: 400;
+    --font-size: 1rem;
+    --line-height: 2rem;
+    --font-family: var(--font-hei);
+
+    --text-font: 400 1rem/1.5rem var(--font-hei);
+    --text-font-size: 1rem;
+    --font-title: 600 1.5rem/2.25rem var(--font-song);
+    --font-title-h1: 900 3rem/4.5rem var(--font-song);
+    --font-title-h2: 800 2.5rem/3.75rem var(--font-song);
+    --font-title-h3: 600 2rem/3rem var(--font-hei);
+    --font-title-h4: 600 1.75rem/2.625rem var(--font-hei);
+    --font-title-h5: 600 1.5rem/2.25rem var(--font-hei);
+    --font-title-h6: 600 1.5rem/2.25rem var(--font-hei);
+
+    --font-quote: 400 1.25rem/1.875rem var(--font-kai);
+    --font-code: 400 0.9rem/1.35rem var(--font-mono);
+    --font-link: 400 var(--text-font-size) var(--font-hei);
+    --font-italic: italic 600 var(--text-font-size) var(--font-song);
+    --font-strong: 800 var(--text-font-size) var(--font-song);
+    --font-highlight: 400 var(--text-font-size) var(--font-hei);
+    --font-strike: 200 var(--text-font-size) var(--font-hei);
+    --font-footnote: 400 1.1rem/1.65rem var(--font-kai);
+
+    /* margin setting:top;right;bottom;left */
+    --margin-h1: 6rem auto 4rem;
+    --margin-h2: 4rem auto 2rem;
+    --margin-h3: 2rem auto 1rem;
+    --margin-h4: 2rem auto 1rem;
+    --margin-h5: 2rem auto 1rem;
+    --margin-h6: 2rem auto 1rem;
+
+    --margin-text: 1rem auto;
+    --margin-block: 1.5rem auto;
+
+    /* padding-setting */
+    --padding-text: 1px 4px;
+    --padding-block: 1rem;
+
+    /* border setting */
+    --base-border: 1px solid #ff8080;
+    --thin-border: 1px solid #ff4d4d;
+    --thick-border: 4px solid #ff4d4d;
+    --divide-border: 1px solid #f2f2f2;
+    --dashed-border: 1px dashed #4d97ff;
+    --dashed-border-opt: 1px dashed #ff4d4d;
+    --window-border:var(--divide-border);
+
+    /* box-shadow */
+    --text-shadow: none;
+    --block-shadow: 0px 8px 16px 1px #0000001a;
+    --block-shadow-opt: 0px 8px 16px #00000044;
+    --block-shadow-weak: 0 8px 16px 0 #b3b3b333;
+    --block-shadow-strong: #00000033 0px 25px 56px 0px, #0000001a 0px 5px 15px 0px;
+
+    /* ui setting */
+    --blur-text-color: #bfbfbf;
+    --active-file-bg-color: #fcfcfc;
+    /* 文件列表 当前文件激活 背景色*/
+    --active-file-text-color: #ff8080;
+    --active-file-border-color: #ff8080;
+    /* 树形结构下文件激活边框色 */
+    --side-bar-bg-color: #f2f2f2;
+    /*文件 大纲 侧边栏 背景色*/
+    --item-hover-bg-color: #e6e6e6;
+    /* 打开文文件夹、正文菜单、最近使用 hover 效果 */
+    --item-hover-text-color: inherit;
+
+    --primary-color: #ff8080;
+    /* color of primary buttons */
+    --primary-btn-border-color: #ff8080;
+    --primary-btn-text-color: #ffffff;
+
+    --select-text-bg-color: #ff8080;
+    --select-text-font-color: #ffffff;
+    --active-bg: #fafafa;
+
+    --control-text-color: var(--color-text);
+}
+
+/* global setting */
+html,
+body,
+content,
+#write {
+    font-size: 16px;
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    background: var(--bg-contents);
+    color: var(--color-text);
+}
+
+content {
+    min-width: 25rem;
+}
+
+#write {
+    background: var(--bg-write);
+    max-width: 60rem;
+    min-height: calc(100vh - 6rem);
+    text-align: justify;
+}
+
+@media (max-width:1100px) {
+
+    html,
+    body,
+    content,
+    #write {
+        background: var(--bg-write);
+    }
+}
+
+@media (min-width:1100px) {
+    #write {
+        box-shadow: var(--block-shadow-strong);
+        border-radius: 5px;
+        margin-top: 5rem;
+        padding: 2rem 4rem;
+    }
+
+    .typora-node #write {
+        min-height: 90%;
+    }
+}
+
+/* title setting */
+
+#write h1 *,
+#write h2 *,
+#write h3 *,
+#write h4 *,
+#write h5 *,
+#write h6 * {
+    color: var(--color-title) !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+#write h1,
+#write h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#write h1 {
+    background: var(--bg-title-h1);
+    color: var(--color-title-h1);
+    font: var(--font-title-h1);
+    margin: var(--margin-h1);
+}
+
+#write h2 {
+    background: var(--bg-title-h2);
+    color: var(--color-title-h2);
+    font: var(--font-title-h2);
+    margin: var(--margin-h2);
+}
+
+#write h3 {
+    background: var(--bg-title-h3);
+    color: var(--color-title-h3);
+    font: var(--font-title-h3);
+    margin: var(--margin-h3);
+}
+
+#write h4 {
+    background: var(--bg-title-h4);
+    color: var(--color-title-h4);
+    font: var(--font-title-h4);
+    margin: var(--margin-h4);
+}
+
+#write h5 {
+    background: var(--bg-title-h5);
+    color: var(--color-title-h5);
+    font: var(--font-title-h5);
+    margin: var(--margin-h5);
+}
+
+#write h6 {
+    background: var(--bg-title-h6);
+    color: var(--color-title-h6);
+    font: var(--font-title-h6);
+    margin: var(--margin-h6);
+}
+
+#write h1:before,
+#write h1:after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: .5rem auto;
+}
+
+#write h1::before {
+    top: -1.5rem;
+    border-top: var(--dashed-border);
+}
+
+#write h1::after {
+    top: 1.5rem;
+    border-top: var(--dashed-border-opt);
+}
+
+#write h3::before {
+    content: "H3";
+}
+
+#write h4::before {
+    content: "H4";
+}
+
+#write h5::before {
+    content: "H5";
+}
+
+#write h6::before {
+    content: "H6";
+}
+
+#write h3::before,
+#write h4::before,
+#write h5::before,
+#write h6::before {
+    font-size: .9rem !important;
+    vertical-align: bottom;
+    margin-right: .5rem;
+    padding: 2px;
+    border-radius: 5px;
+    background: var(--color-text);
+    color: var(--bg-write);
+}
+
+/* block-element setting */
+
+blockquote,
+pre.md-fences,
+figure>table,
+#write img {
+    margin: var(--margin-block);
+    padding: var(--padding-block);
+}
+
+p {
+    margin: var(--margin-text);
+    line-height: var(--line-height);
+}
+
+/* blockquote setting */
+
+blockquote {
+    background: var(--bg-quote);
+    border-radius: 5px;
+    box-shadow: var(--block-shadow);
+    padding-left: 2rem;
+    border: 1px solid #9993;
+}
+
+blockquote blockquote {
+    padding: 0;
+    padding-left: 2rem;
+    border: none;
+    border-left: var(--thick-border);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+blockquote,
+blockquote p {
+    font: var(--font-quote);
+    color: var(--color-quote);
+}
+
+/* list setting */
+
+#write ul,ol {
+    margin-left: 1.5rem;
+}
+
+#write ol {
+    list-style: decimal-leading-zero;
+}
+
+#write ol ol {
+    list-style-type: lower-roman;
+}
+
+#write ul ul {
+    list-style-type: circle;
+}
+
+/* todo list */
+
+.md-task-list-item>input {
+    margin-left: -1.5rem;
+    top: 5px;
+}
+
+.md-task-list-item>input::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border-radius: 50%;
+    width: 1.3rem;
+    height: 1.3rem;
+    border: var(--base-border);
+    background: #fff;
+    -webkit-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+}
+
+.md-task-list-item>input::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    width: 0.6rem;
+    height: 0.3rem;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-right: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out;
+}
+
+.md-task-list-item>input:checked::before {
+    background: var(--theme-color);
+    border: none;
+}
+
+.md-task-list-item>input:checked::after {
+    opacity: 1;
+}
+
+.md-task-list-item.task-list-done {
+    text-decoration: line-through;
+    color: var(--color-weakest);
+}
+
+/* image setting */
+
+#write img {
+    box-shadow: var(--img-shadow);
+    border-radius: 5px;
+}
+
+/* 使图片去掉阴影 */
+img[alt|="no-shadow"] {
+    box-shadow: none !important;
+}
+
+/* 使图片去掉所有效果 */
+img[alt|="normal"] {
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+
+/* horizontal rule */
+
+hr {
+    border: none;
+    border-bottom: var(--base-border);
+    margin: 2rem auto;
+    height: 1px;
+    width: 50%;
+}
+
+hr.pb {
+    page-break-after: always;
+    border-bottom: 1px solid transparent;
+}
+
+/* inline-element setting */
+
+code,
+mark,
+kbd,
+samp,
+tt,
+var,
+#write a,
+strong,
+em {
+    margin: var(--margin-text);
+    padding: var(--padding-text);
+}
+
+#write a,
+ins {
+    font: var(--font-link);
+    background: var(--bg-link);
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+#write a {
+    border-bottom: var(--dashed-border-opt);
+}
+
+#write a:hover {
+    color: var(--link-hover-color);
+    border-bottom-color: var(--link-hover-color);
+    text-decoration: none;
+}
+
+del{
+    color: var(--color-strike);
+    background: var(--bg-strike);
+}
+
+#write strong {
+    font: var(--font-strong);
+    background: var(--bg-strong);
+    color: var(--color-strong);
+}
+
+#write em {
+    font: var(--font-italic);
+    background: var(--bg-italic);
+    color: var(--color-italic);
+    text-decoration: underline dotted;
+}
+
+em strong, strong em {
+    font-weight: 900!important;
+}
+
+#write mark {
+    font: var(--font-highlight);
+    background: var(--bg-highlight);
+    color: var(--color-highlight);
+}
+
+/* code & code-block setting */
+
+#write pre.md-meta-block,
+#write pre.md-fences,
+code,
+kbd,
+samp,
+tt,
+var {
+    font: var(--font-code);
+    background: var(--bg-code);
+    color: var(--color-code);
+}
+
+/* 代码块下的标题颜色过深。修改为浅蓝 */
+.cm-s-inner .cm-header,
+.cm-s-inner.cm-header {
+    color: hsl(215, 100%, 75%);
+}
+
+.cm-s-inner .CodeMirror-cursors,.CodeMirror div.CodeMirror-cursor {
+    background-color: #ff8080!important;
+    border-left: 2px solid #ff8080!important;
+    width: 2px!important;
+}
+
+/* code-block setting */
+
+
+#write pre.md-meta-block {
+    min-height: 30px;
+    position: sticky;
+    padding: 1.5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+#write pre.md-fences {
+    border-top: 2rem solid var(--bg-code-block);
+    padding: var(--padding-block);
+    display: block;
+    -webkit-overflow-scrolling: touch;
+    box-shadow: var(--block-shadow);
+    margin: var(--margin-block);
+}
+
+#write pre.md-meta-block,
+#write pre.md-fences {
+    font: var(--font-code);
+    border-radius: 5px;
+    background: var(--bg-code-block);
+    color: var(--color-code);
+}
+
+pre.md-fences:before {
+    content: ' ';
+    background: #fc625d;
+    box-shadow: 23px 0 #fdbc40, 45px 0 #35cd4b;
+    border-radius: 50%;
+    margin-top: -2.3rem;
+    position: absolute;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+}
+
+/* footenote */
+.footnotes,
+.footnotes em,
+.footnotes strong {
+    background: var(--bg-footnote);
+    color: var(--color-footnote);
+    font: var(--font-footnote);
+}
+
+.footnotes a {
+    color: hsl(215, 100%, 75%);
+}
+
+/* table setting */
+
+
+#write table th,
+#write table thead th {
+    background: var(--bg-thead);
+    padding: .5rem 1rem;
+    color: var(--thead-color);
+}
+
+#write table caption {
+    border-bottom: none;
+}
+
+#write table td {
+    background: var(--bg-tbody);
+    border: var(--divide-border);
+    padding: var(--padding-block);
+    color: var(--color-text);
+}
+
+#write th:hover {
+    background: var(--bg-thead-hover);
+    color: var(--color-thead-hover);
+}
+
+#write td:hover {
+    background: var(--bg-tbody-hover);
+    color: var(--color-tbody-hover);
+}
+
+table tr:nth-child(2n) {
+    background: var(--bg-tbody-opt);
+    color: var(--tbody-color-opt);
+}
+
+/* bugfix start */
+figure>table {
+    width: 98%;
+}
+
+.ty-table-edit {
+    margin-top: -10px !important;
+}
+
+td.md-reset,
+td.md-reset a {
+    margin: 0 !important;
+    padding: 0 !important;
+    border-bottom: none !important;
+}
+
+.md-grid-board a.md-active,
+.md-grid-board a:hover {
+    border-color: #333;
+    background: #dedede !important;
+}
+
+#write .md-grid-board-wrap input {
+    text-align: center !important;
+}
+
+/* bugfix over */
+
+ :root {--mermaid-font-zoom:1.25em ;} 
+</style>
+</head>
+<body class='typora-export os-windows'>
+<div id='write'  class=''><h1><a name="openai-api-代理" class="md-header-anchor"></a><span>OpenAI API 代理</span></h1><p><span>由于 OpenAI 及 GFW 的双重限制，国内开发者无法访问 OpenAI 的 API，现提供代理服务地址供开发者</span><strong><span>免费</span></strong><span>使用。</span></p><p><span>✅ 代理地址：</span><a href='https://openai.wndbac.cn'><span>https://openai.wndbac.cn</span></a><span>，直接替换官方的 </span><a href='https://api.openai.com'><span>https://api.openai.com</span></a><span>，支持官方所有v1接口。</span></p><p><span>⚠️ 本代理服务通过Cloudflare反向代理访问OpenAI的接口，只做代理中转，不会保存任何数据！</span></p><p><span>🚨 请勿使用魔法上网的方式用你的 </span><code>ApiKey</code><span> 去调用 </span><code>api.openai.com</code><span> 的接口，否则大概率会被 OpenAI 封号！</span></p><h2><a name="1🔔-获取apikey" class="md-header-anchor"></a><span>1、🔔 获取ApiKey</span></h2><p><span>注册 </span><a href='https://platform.openai.com/account/api-keys'><span>OpenAI</span></a><span> 账号，获取你的 </span><a href='https://platform.openai.com/account/api-keys'><span>ApiKey</span></a><span>，过程略。</span></p><h2><a name="2💬-聊天接口" class="md-header-anchor"></a><span>2、💬 聊天接口</span></h2><h4><a name="⚠️-不再推荐使用本接口后面将废弃" class="md-header-anchor"></a><span>⚠️ 不再推荐使用本接口，后面将废弃。</span></h4><blockquote><p><span>POST </span><a href='https://openai.wndbac.cn/pro/chat/completions'><span>https://openai.wndbac.cn/pro/chat/completions</span></a></p></blockquote><p><span>请求参数</span></p><figure><table><thead><tr><th style='text-align:left;' ><span>参数名</span></th><th style='text-align:left;' ><span>类型</span></th><th style='text-align:left;' ><span>长度</span></th><th style='text-align:left;' ><span>必须</span></th><th style='text-align:left;' ><span>备注</span></th></tr></thead><tbody><tr><td style='text-align:left;' ><span>apiKey</span></td><td style='text-align:left;' ><span>String</span></td><td style='text-align:left;' ><span>64</span></td><td style='text-align:left;' ><span>是</span></td><td style='text-align:left;' ><span>OpenAI 的 ApiKey</span></td></tr><tr><td style='text-align:left;' ><span>sessionId</span></td><td style='text-align:left;' ><span>String</span></td><td style='text-align:left;' ><span>64</span></td><td style='text-align:left;' ><span>是</span></td><td style='text-align:left;' ><span>会话ID，关联上下文，推荐使用UUID作为sessionId</span></td></tr><tr><td style='text-align:left;' ><span>content</span></td><td style='text-align:left;' ><span>String</span></td><td style='text-align:left;' ><span>1000</span></td><td style='text-align:left;' ><span>是</span></td><td style='text-align:left;' ><span>发送的内容</span></td></tr></tbody></table></figure><p><span>请求示例（</span><strong><span>Content-Type = application/json</span></strong><span>）</span></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="JSON"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="json"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style="text-rendering: auto;"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-string cm-property">"apiKey"</span>: <span class="cm-string">"&lt;your_openai_api_key&gt;"</span>,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-string cm-property">"sessionId"</span>: <span class="cm-string">"8d1cb9b0-d535-43a8-b738-4f61b1608579"</span>,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-string cm-property">"content"</span>: <span class="cm-string">"你是谁？"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 108px;"></div><div class="CodeMirror-gutters" style="display: none; height: 108px;"></div></div></div></pre><p><span>响应示例</span></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="JSON"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="json"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style="text-rendering: auto;"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-string cm-property">"code"</span>: <span class="cm-number">200</span>,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-string cm-property">"message"</span>: <span class="cm-string">"执行成功"</span>,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-string cm-property">"data"</span>: <span class="cm-string">"我是一名人工智能助手，用于协助回答问题和提供建议。您可以通过与我进行对话来获取您需要的信息或帮助。"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 130px;"></div><div class="CodeMirror-gutters" style="display: none; height: 130px;"></div></div></div></pre><p><span>本接口使用的是 </span><code>gpt-3.5-turbo</code><span> 模型，支持通过上下文内容进行连续对话。</span></p><p><span>本接口对官方的接口进行了封装，开发者只需为每个 </span><code>ApiKey</code><span> 下的每个会话分配一个独立的 </span><code>sessionId</code><span> 即可实现连续对话。</span></p><p><span>推荐使用 uuid 作为 </span><code>sessionId</code><span> 以保证全局唯一 ，否则对话可能会&quot;串线&quot;。</span></p><p><span>对话中的上下文信息有效期为30分钟，过期后再次发送消息无法关联上下文。</span></p><h2><a name="3✅-推荐方式" class="md-header-anchor"></a><span>3、✅ 推荐方式</span></h2><p><span>推荐大家直接根据 OpenAI 官方的接口文档开发你的程序。</span></p><p><span>你只需要将官方接口域名替换为 </span><a href='https://openai.wndbac.cn'><span>https://openai.wndbac.cn</span></a><span>  即可在国内网络环境下直接调用，支持SSE。</span></p><p><span>例如将：</span></p><p><span>https://</span><strong><span>api.openai.com</span></strong><span>/v1/chat/completions</span></p><p><span>改成</span></p><p><span>https://</span><strong><span>openai.wndbac.cn</span></strong><span>/v1/chat/completions</span></p><p><span>接口URL、请求参数、响应报文等全部与OpenAI官方一致，请直接参考 </span><a href='https://platform.openai.com/docs/introduction'><span>OpenAI 官方文档</span></a><span> 。</span></p><p><strong><span>测试命令</span></strong></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="" style="break-inside: unset;"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style="text-rendering: auto;"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"># 测试聊天</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">curl https://api.openai-proxy.com/v1/chat/completions \</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  -H "Content-Type: application/json" \</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  -H "Authorization: Bearer &lt;your_openai_api_key&gt;" \</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  -d '{</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "model": "gpt-3.5-turbo",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "messages": [{"role": "user", "content": "Hello!"}]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  }'</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"># 响应结果</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  "id": "chatcmpl-21lvNzPaxlsQJh0BEIb9DqoO0pZUY",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  "object": "chat.completion",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  "created": 1680656905,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  "model": "gpt-3.5-turbo-0301",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  "usage": {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "prompt_tokens": 10,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "completion_tokens": 10,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "total_tokens": 20</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  },</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  "choices": [</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;  "message": {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  "role": "assistant",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  "content": "Hello there! How can I assist you today?"</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;  },</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;  "finish_reason": "stop",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;  "index": 0</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  ]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 670px;"></div><div class="CodeMirror-gutters" style="display: none; height: 670px;"></div></div></div></pre><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="" style="break-inside: unset;"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style="text-rendering: auto;"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"># 测试生成图片</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">curl https://api.openai-proxy.com/v1/images/generations \</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  -H "Content-Type: application/json" \</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  -H "Authorization: Bearer &lt;your_openai_api_key&gt;" \</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  -d '{</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "prompt": "A bikini girl",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "n": 2,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "size": "512x512"</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  }'</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"># 响应结果</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  "created": 1680705608,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  "data": [</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;  "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-xxxxxxx"</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  },</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;  "url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-xxxxxxx"</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  ]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 475px;"></div><div class="CodeMirror-gutters" style="display: none; height: 475px;"></div></div></div></pre><p><strong><span>如何通过OpenAI官方的接口实现连续对话？</span></strong></p><p><span>有很多用户问如何实现连续聊天，官方文档其实写的很清楚 </span><a href='https://platform.openai.com/docs/guides/chat/introduction'><span>https://platform.openai.com/docs/guides/chat/introduction</span></a></p><blockquote><p><span>Chat models take a series of messages as input, and return a model-generated message as output.</span></p><p><span>聊天模型将一系列消息作为输入，并返回模型生成的消息作为输出。</span></p></blockquote><p><span>下面是官方Python语言实现连续聊天的代码示例，主要看这个 messges 数组：</span></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang=""><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style="text-rendering: auto;"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"># Note: you need to be using OpenAI Python v0.27.0 for the code below to work</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">import openai</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">openai.ChatCompletion.create(</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  model="gpt-3.5-turbo",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">  messages=[</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  {"role": "system", "content": "You are a helpful assistant."},</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  {"role": "user", "content": "Who won the world series in 2020?"},</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  {"role": "user", "content": "Where was it played?"}</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  ]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">)</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 281px;"></div><div class="CodeMirror-gutters" style="display: none; height: 281px;"></div></div></div></pre><p><span>role为user是用户发送的内容，role为assistant是AI回答的内容。</span></p><p><span>OpenAI本身是没有记忆的，如果你不告诉他你之前说了什么以及他之前回答了什么，那么他只会根据你最近一次发送的内容进行回答。</span></p><p><span>所以，要想实现“连续对话”，每次发送消息时，你需要将你之前发送的内容(</span><strong><span>user</span></strong><span>)以及OpenAI之前返回的内容(</span><strong><span>assistant</span></strong><span>)，再结合你本次想发送的内容(</span><strong><span>user</span></strong><span>) 按 </span><strong><span>时序</span></strong><span> 组合成一个 messages[] 数组，然后再将这个数组发送给OpenAI就行了，就是这么简单。</span></p><p><span>有一点需要注意，这样虽然可以实现“连续对话”，但势必造成每次发送的消息内容会非常多，而OpenAI是按字数计费的，所以你需要根据你口袋里的钞票去衡量每次应该携带几条聊天记录比较合适。</span></p><h2><a name="4⭐️-第三方应用" class="md-header-anchor"></a><span>4、⭐️ 第三方应用</span></h2><p><span>如果你用的是第三方开发者开发的基于 OpenAI 的应用，你也可以直接把 </span><a href='https://openai.wndbac.cn'><span>https://openai.wndbac.cn</span></a><span> 设为其代理接口地址，这样就直接可以在国内网络环境下使用该应用。比如下列几个应用：</span></p><figure><table><thead><tr><th style='text-align:left;' ><span>名称</span></th><th style='text-align:left;' ><span>GitHub地址</span></th><th style='text-align:left;' ><span>Stars</span></th></tr></thead><tbody><tr><td style='text-align:left;' ><span>OpenAI-Translator</span></td><td style='text-align:left;' ><a href='https://github.com/yetone/openai-translator' target='_blank' class='url'>https://github.com/yetone/openai-translator</a></td><td style='text-align:left;' ><img src="https://img.shields.io/github/stars/yetone/openai-translator.svg" referrerpolicy="no-referrer"></td></tr><tr><td style='text-align:left;' ><span>ChatGPT-Next-Web</span></td><td style='text-align:left;' ><a href='https://github.com/Yidadaa/ChatGPT-Next-Web' target='_blank' class='url'>https://github.com/Yidadaa/ChatGPT-Next-Web</a></td><td style='text-align:left;' ><img src="https://img.shields.io/github/stars/Yidadaa/ChatGPT-Next-Web.svg" referrerpolicy="no-referrer"></td></tr><tr><td style='text-align:left;' ><span>ChatGPT-Web</span></td><td style='text-align:left;' ><a href='https://github.com/Chanzhaoyu/chatgpt-web' target='_blank' class='url'>https://github.com/Chanzhaoyu/chatgpt-web</a></td><td style='text-align:left;' ><img src="https://img.shields.io/github/stars/Chanzhaoyu/chatgpt-web.svg" referrerpolicy="no-referrer"></td></tr></tbody></table></figure><h2><a name="5💰-查询余额" class="md-header-anchor"></a><span>5、💰 查询余额</span></h2><p><span>接口地址 (</span><strong><span>GET请求</span></strong><span>)</span></p><blockquote><p><span>GET </span><a href='https://api.openai-proxy.com/pro/balance?apiKey=sk-xxxxxxxxxxxxxx'><span>https://api.openai-proxy.com/pro/balance?apiKey=sk-xxxxxxxxxxxxxx</span></a></p></blockquote><p><span>请求参数</span></p><figure><table><thead><tr><th style='text-align:left;' ><span>参数名</span></th><th style='text-align:left;' ><span>类型</span></th><th style='text-align:left;' ><span>长度</span></th><th style='text-align:left;' ><span>必须</span></th><th style='text-align:left;' ><span>备注</span></th></tr></thead><tbody><tr><td style='text-align:left;' ><span>apiKey</span></td><td style='text-align:left;' ><span>String</span></td><td style='text-align:left;' ><span>64</span></td><td style='text-align:left;' ><span>是</span></td><td style='text-align:left;' ><span>OpenAI 的 ApiKey</span></td></tr></tbody></table></figure><p><span>相应示例</span></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang=""><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style="text-rendering: auto;"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "code": 200,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "message": "执行成功",</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  "data": {</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  "total": 18.00,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  "balance": 17.92,</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  "used": 0.08</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 194px;"></div><div class="CodeMirror-gutters" style="display: none; height: 194px;"></div></div></div></pre><p><span>原OpenAI官方后台查询余额的接口由于被用户滥用，官方给撤销了，现有一个折中的方式去计算账户余额。逻辑是先得到OpenAI给你账户授权的总金额，然后减去最近90天你账户消耗的金额，得到的 balance 即为账户可用余额。如果你的账号已使用超过90天，此计算方式会存在误差，如果想知道准确的数据，请登录OpenAI官网查看，目前别无他法。</span></p><hr /><p><span>Email：</span><a href='mailto:towindback@qq.com'><span>towindback@qq.com</span></a></p><p><span>体验ChatGPT：</span><a href='https://chat.wndbac.cn' target='_blank' class='url'>https://chat.wndbac.cn</a></p><p><span>更新时间：2023-04-15</span></p></div>
+</body>
+</html>
