@@ -1,6 +1,6 @@
 # OpenAI API 代理
 
-由于 OpenAI 及 GFW 的双重限制，国内开发者无法访问 OpenAI 的 API，现提供代理服务地址供开发者免费使用。
+由于 OpenAI 及 GFW 的双重限制，国内开发者无法访问 OpenAI 的 API，现提供代理服务地址供开发者**免费**使用。
 
 ✅ 代理地址：[https://openai.wndbac.cn](https://openai.wndbac.cn)，直接替换官方的 [https://api.openai.com](https://api.openai.com)，支持官方所有v1接口。
 
@@ -166,6 +166,8 @@ OpenAI本身是没有记忆的，如果你不告诉他你之前说了什么以�
 
 ## 4、⭐️ 第三方应用
 
+如果你用的是第三方开发者开发的基于 OpenAI 的应用，你也可以直接把 [https://openai.wndbac.cn](https://openai.wndbac.cn) 设为其代理接口地址，这样就直接可以在国内网络环境下使用该应用。比如下列几个应用：
+
 | 名称 | GitHub地址 | Stars |
 | :----- | :----- | :----- |
 | OpenAI-Translator | https://github.com/yetone/openai-translator | ![](https://img.shields.io/github/stars/yetone/openai-translator.svg) |
@@ -201,3 +203,9 @@ OpenAI本身是没有记忆的，如果你不告诉他你之前说了什么以�
 原OpenAI官方后台查询余额的接口由于被用户滥用，官方给撤销了，现有一个折中的方式去计算账户余额。逻辑是先得到OpenAI给你账户授权的总金额，然后减去最近90天你账户消耗的金额，得到的 balance 即为账户可用余额。如果你的账号已使用超过90天，此计算方式会存在误差，如果想知道准确的数据，请登录OpenAI官网查看，目前别无他法。
 
 ---
+
+Email：towindback@qq.com
+
+ChatGPT：https://chat.wndbac.cn
+
+更新时间：2023-04-15
