@@ -204,8 +204,8 @@ OpenAI本身是没有记忆的，如果你不告诉他你之前说了什么以�
 
 ---
 
-Email：towindback@qq.com
+Email：[towindback@qq.com](mailto:towindback@qq.com)
 
-ChatGPT：https://chat.wndbac.cn
+体验ChatGPT：https://chat.wndbac.cn
 
 更新时间：2023-04-15
