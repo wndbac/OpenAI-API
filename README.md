@@ -68,7 +68,7 @@ https://**api.openai.com**/v1/chat/completions
 
 https://**openai.wndbac.cn**/v1/chat/completions
 
-接口URL、请求参数、响应报文等全部与OpenAI官方一致，请直接参考 [OpenAI 官方文档](https://platform.openai.com/docs/introduction)。
+接口URL、请求参数、响应报文等全部与OpenAI官方一致，请直接参考 [OpenAI 官方文档](https://platform.openai.com/docs/introduction) 。
 
 **测试命令**
 
