@@ -4,7 +4,7 @@
 
 ✅ 代理地址：[https://openai.wndbac.cn](https://openai.wndbac.cn)，直接替换官方的 [https://api.openai.com](https://api.openai.com)，支持官方所有v1接口。
 
-⚠️ 本代理服务通过Nginx反向代理访问OpenAI的接口，只做代理中转，不会保存任何数据！
+⚠️ 本代理服务通过Cloudflare反向代理访问OpenAI的接口，只做代理中转，不会保存任何数据！
 
 🚨 请勿使用魔法上网的方式用你的 ApiKey 去调用 api.openai.com的接口，否则大概率会被 OpenAI 封号！
 
