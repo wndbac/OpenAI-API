@@ -6,7 +6,7 @@
 
 ⚠️ 本代理服务通过Cloudflare反向代理访问OpenAI的接口，只做代理中转，不会保存任何数据！
 
-🚨 请勿使用魔法上网的方式用你的 ApiKey 去调用 api.openai.com的接口，否则大概率会被 OpenAI 封号！
+🚨 请勿使用魔法上网的方式用你的 `ApiKey` 去调用 `api.openai.com` 的接口，否则大概率会被 OpenAI 封号！
 
 ## 1、🔔 获取ApiKey
 
