@@ -48,9 +48,9 @@
 
 本接口使用的是 `gpt-3.5-turbo` 模型，支持通过上下文内容进行连续对话。
 
-本接口对官方的接口进行了封装，开发者只需为每个 `ApiKey` 下的每个会话分配一个独立的 `sessionId` 即可实现连续对话 。
+本接口对官方的接口进行了封装，开发者只需为每个 `ApiKey` 下的每个会话分配一个独立的 `sessionId` 即可实现连续对话。
 
-推荐使用 uuid 作为 `sessionId` 以保证全局唯一 ，否则对话可能会“串线”。
+推荐使用 uuid 作为 `sessionId` 以保证全局唯一 ，否则对话可能会"串线"。
 
 对话中的上下文信息有效期为30分钟，过期后再次发送消息无法关联上下文。
 
@@ -133,9 +133,10 @@ curl https://api.openai-proxy.com/v1/images/generations \
 
 **如何通过OpenAI官方的接口实现连续对话？**
 
-有很多朋友发邮件问如何实现连续聊天，官方文档其实写的很清楚 [https://platform.openai.com/docs/guides/chat/introduction](https://platform.openai.com/docs/guides/chat/introduction)
+有很多用户问如何实现连续聊天，官方文档其实写的很清楚 [https://platform.openai.com/docs/guides/chat/introduction](https://platform.openai.com/docs/guides/chat/introduction)
 
 > Chat models take a series of messages as input, and return a model-generated message as output.
+> 
 > 聊天模型将一系列消息作为输入，并返回模型生成的消息作为输出。
 
 下面是官方Python语言实现连续聊天的代码示例，主要看这个 messges 数组：
