@@ -178,7 +178,7 @@ OpenAI本身是没有记忆的，如果你不告诉他你之前说了什么以�
 
 接口地址 (**GET请求**)
 
-> GET [https://openai.wndbac/pro/balance?apiKey=sk-xxxxxxxxxxxxxx](https://api.openai-proxy.com/pro/balance?apiKey=sk-xxxxxxxxxxxxxx)
+> GET [https://openai.wndbac.cn/pro/balance?apiKey=sk-xxxxxxxxxxxxxx](https://api.openai-proxy.com/pro/balance?apiKey=sk-xxxxxxxxxxxxxx)
 
 请求参数
 
@@ -208,4 +208,4 @@ Email：[towindback@qq.com](mailto:towindback@qq.com)
 
 体验ChatGPT：https://chat.wndbac.cn
 
-更新时间：2023-04-15
+更新时间：2023-04-16
