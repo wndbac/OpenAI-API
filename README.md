@@ -58,7 +58,7 @@
 
 推荐大家直接根据 OpenAI 官方的接口文档开发你的程序。
 
-你只需要将官方接口域名替换为 [https://openai.wndbac.cn](https://openai.wndbac.cn)  即可在国内网络环境下直接调用，支持SSE。
+你只需要将官方接口域名替换为 [https://openai.wndbac.cn](https://openai.wndbac.cn) 即可在国内网络环境下直接调用，支持SSE。
 
 例如将：
 
@@ -208,4 +208,4 @@ Email：[towindback@qq.com](mailto:towindback@qq.com)
 
 体验ChatGPT：https://chat.wndbac.cn
 
-更新时间：2023-04-16
+更新时间：2023-04-15
